@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.Select;
 public class PostTestRizkiMaulana  {
 
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "F:\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "F:\\Software\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         String url = "https://formy-project.herokuapp.com/form";
